@@ -1,0 +1,67 @@
+#rules1{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+}
+#rules2{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+}
+#rules3{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+}
+#rules4{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 50;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor:pointer;
+}
+.submit-popup{
+  position: absolute;
+  display: table;
+  margin: auto;
+  padding: 2%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: left;
+  width: 60%;
+  background-color: white;
+  z-index: 100;
+  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.3));
+  border-radius: 20px;
+}

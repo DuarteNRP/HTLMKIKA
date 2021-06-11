@@ -2,14 +2,50 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
-<title>Document</title>
+<title>Labirinto</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-	<h1>Título de nível 1</h1>
-	<h2>Título de nível 2</h2>
-	<h3>Título de nível 3</h3>
-	<h4>Título de nível 4</h4>
-	<h5>Título de nível 5</h5>
-	<h6>Título de nível 6</h6>
+<div id="rules1">
+    <div class="submit-popup">
+      <span class="close">&times;</span>
+      <h3>THAT'S NOT IT</h3><hr>
+    </div>
+</div>
+<div id="rules2">
+    <div class="submit-popup">
+      <span class="close">&times;</span>
+      <h3>what are you looking for?</h3><hr>
+</div>
+</div>
+<div id="rules3">
+    <div class="submit-popup">
+      <span class="close">&times;</span>
+      <h3>i think you're stuck in this labyrint</h3><hr>
+    </div>
+</div>
+<div id="rules4">
+    <div class="submit-popup">
+      <span class="close">&times;</span>
+      <h3>you need to know what you're</h3>
+      <h3>looking for</h3><hr>
+</div>
+</div>
+<img src="first1.jpeg" onclick="rulesButton1()" height="500" width="400">
+<img src="first2.jpeg" onclick="rulesButton2()" height="500" width="400">
+<img src="first3.jpeg" onclick="rulesButton3()" height="500" width="400">
+<img src="first1.jpeg" onclick="rulesButton4()" height="500" width="400">
+<img src="first2.jpeg" onclick="rulesButton1()" height="500" width="400">
+<a href="index2.html">
+  <img src="first3.jpeg" alt="my picture" height="500" width="400" />
+</a>
+<img src="first1.jpeg" onclick="rulesButton2()" height="500" width="400">
+<img src="first2.jpeg" onclick="rulesButton3()" height="500" width="400">
+<img src="first3.jpeg" onclick="rulesButton4()" height="500" width="400">
+<script src = "script.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
